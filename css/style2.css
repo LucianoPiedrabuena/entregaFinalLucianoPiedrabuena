@@ -1,0 +1,610 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----HEADER------*/
+header {
+    /* background-color: rgba(0, 0, 255, 0.521); */
+    position: sticky;
+    top: 0;
+    /* padding: 15px; */
+    /* display: flex; */
+    /* justify-content: space-between;
+    align-items: flex-end; */
+    /* width: 100%; */
+}
+
+/* header h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+header h2{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+} */
+
+/* .titulo h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.titulo h2 {
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+} */
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    align-items: flex-end;
+    text-transform: uppercase;
+    transition: 1s;
+
+} */
+
+/* header nav ul li a:hover {
+    color: brown;
+} */
+
+.nav-item .nav-link {
+    color: white;
+    transition: 1s;
+}
+
+.nav-item .nav-link:hover {
+    transform: scale(1.1);
+    color: brown;
+}
+
+.fondo {
+    background-color: rgb(10, 32, 226);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+
+
+.btn {
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 1s;
+    color: white;
+}
+
+
+.btn:hover {
+    background-color: rgba(0, 255, 106, 0.945);
+    border: 1px solid white;
+    /* color: brown; */
+    transform: scale(1.1);
+}
+.navbar-toggler{
+    background-color: white;
+    /* color: white; */
+}
+
+
+
+
+
+/*-----MAIN------*/
+
+.hero {
+    /* background-image: url(../img/fondo-futbol.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.555)), url(../img/fondo-futbol.jpg);
+    width: 100%;
+    height: calc(100vh - 83.75px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero div {
+    color: white;
+    text-align: center;
+
+}
+
+.titulo2 {
+    width: 100%;
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.titulo2 div h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tituloAzul {
+    border: 2px solid white;
+    margin-bottom: 20px;
+    font-size: 35px;
+    padding: 10px;
+}
+
+
+
+.hero div a {
+    width: 20px;
+    color: brown;
+    background-color: rgba(0, 255, 106, 0.945);
+    padding: 5px;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 1s;
+
+}
+
+.hero div a:hover {
+    transform: scale(1.5);
+    background-color: aqua;
+    font-size: 20px;
+}
+
+
+.galeriaDeFotos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+/* .galeriaDeFotos div img {
+    width: 250px;
+    height: 250px;
+
+} */
+
+.galeriaDeFotos div {
+    text-align: center;
+    border: 2px black solid;
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+    transition: 1.5s;
+    margin-bottom: 100px;
+    margin-top: 30px;
+
+}
+
+.galeriaDeFotos div:hover {
+    transform: scale(1.1);
+}
+
+.galeriaDeFotos div img {
+    width: 100%;
+    height: 57%;
+    border-radius: 0 0 8px 8px;
+
+}
+
+
+.categorias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+
+
+
+.fixed {
+    position: fixed;
+    right: 3%;
+    bottom: 20%;
+    background-color: rgba(0, 0, 255);
+    font-size: 16px;
+    text-align: center;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 26px 0px 46px 12px rgba(0, 0, 0, 0.603);
+    color: white;
+
+}
+
+.fixed a {
+    text-align: center;
+    color: brown;
+    text-decoration: none;
+    transition: 1s;
+
+}
+
+.fixed a:hover {
+    transform: scale(1.5);
+    font-size: 20px;
+    color: brown;
+
+}
+
+.fixed div {
+    margin-top: 30px;
+}
+
+.acerca {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.acerca div img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.sueño {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sueño img {
+    margin: 0 50px 50px 50px;
+}
+
+.mision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mision img {
+    margin: 0 0 50px 50px;
+}
+
+.principios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.principios img {
+    margin: 0 50px 50px 50px
+}
+
+.valores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.valores img {
+    margin: 0 0 50px 50px;
+}
+
+.video {
+    display: flex;
+    width: 300p;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+/* .categorias img {
+    width: 300px;
+    height: 300px;
+} */
+
+.nosotros div img {
+    width: 300px;
+    height: 300px;
+}
+
+.nosotros div p {
+    text-align: justify;
+}
+
+.nosotros div {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+.gridImagenes {
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gridImagenes div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.img2010 {
+    grid-column: span 2;
+}
+
+.img2012 {
+    grid-row: span 2;
+}
+
+.img2014 {
+    grid-row: span 2;
+}
+
+.gridItem {
+    position: relative;
+}
+
+.gridItem h3 {
+    position: absolute;
+    bottom: 0;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 100%;
+    font-size: 30px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    padding: 5px;
+    text-align: center;
+}
+
+.gridCategorias{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 50px;
+    
+}
+
+.gridCategorias div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ 
+}
+.gridItemCat{
+    position: relative;
+}
+
+.gridItemCat h2{
+    position: absolute;
+    bottom: 0;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.301);
+    width: 100%;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    text-align: center;
+}
+
+.nosotrosEquipo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin: 50px 0 50px 0;
+    
+}
+.nosotrosEquipo img{
+    width: 18rem;
+    height: 250px;
+}
+
+.nosotrosEquipo h2{
+    font-size: 18px;
+    text-align: center;
+}
+
+.nosotrosEquipo h3{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.nuestroEquipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nuestroEquipo h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+/*---------FOOTER--------*/
+
+.footer {
+    background-color: rgb(10, 32, 226);
+    width: 100%;
+    color: beige;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer div h3 {
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.footer div a {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    width: 30px;
+    height: 30px;
+}
+
+.footer div a img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/*!MEDIA QUERIES*/
+
+@media screen and (max-width:950px){
+    .gridImagenes {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+    }
+
+    .gridItem{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .img2015 {
+        grid-column: span 2;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+
+    }
+
+    .titulo {
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width:950px){
+    .gridCategorias {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+    }
+
+    .gridItemCat{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .img015{
+        grid-column: span 2;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+
+    }
+
+    /* .titulo {
+        justify-content: start;
+    } */
+}
+
+
+@media screen and (max-width:600px){
+    .fixed {
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (max-width:450px) {
+    .gridImagenes {
+        grid-template-columns: 1fr;
+    }
+
+    .gridItem {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+
+    }
+
+}
+
+@media screen and (max-width:700px){
+    .acerca .sueño{
+        flex-direction: column;
+    }
+    .acerca .mision{
+        flex-direction: column-reverse;
+    }
+    .acerca .principios{
+        flex-direction: column;
+    }
+    .acerca .valores{
+        flex-direction: column-reverse;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+
+    }
+}
+
+
+
+
+
