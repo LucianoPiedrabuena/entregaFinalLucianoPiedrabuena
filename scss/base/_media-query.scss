@@ -1,0 +1,120 @@
+
+
+@media screen and (max-width:950px){
+    .gridImagenes {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+    }
+
+    .gridItem{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .img2015 {
+        grid-column: span 2;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+
+    }
+
+    .titulo {
+        justify-content: start;
+    }
+    .gridCategorias {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+    }
+
+    .gridItemCat{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .img015{
+        grid-column: span 2;
+    }
+
+}
+@media screen and (max-width:700px){
+  
+    .acerca .sueño{
+        flex-direction: column;
+        margin: 0 0 0 0 ;
+    }
+    .acerca .mision{
+        flex-direction: column-reverse;
+        margin: 0 0 0 0 ;
+    }
+    .acerca .principios{
+        flex-direction: column;
+        margin: 0 0 0 0 ;
+    }
+    .acerca .valores{
+        flex-direction: column-reverse;
+        margin: 0 0 0 0 ;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+
+    }
+}
+
+@media screen and (max-width:600px){
+    .fixed {
+        display: none;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .gridImagenes {
+        grid-template-columns: 1fr;
+    }
+
+    .gridItem {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+
+    }
+    .acerca{
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .galeriaDeFotos{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:410px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        width: 100%;
+    }
+    .acerca p {
+        
+       
+        width: auto;
+        
+    }
+    .acerca img{
+        width: 80%;
+        height: 250px;
+    }
+}

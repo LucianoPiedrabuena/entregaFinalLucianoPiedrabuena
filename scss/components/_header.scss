@@ -1,0 +1,42 @@
+@import "../base/variables";
+
+        .fondo{
+            position: sticky;
+            top: 0;
+            background-color: $colorPrincipal;
+            .navbar-brand {
+                color: white;
+            }
+            .logo {
+                width: 100px;
+                height: 100px;
+                border-radius: 100%;
+            }
+            .btn {
+                border: 1px solid white;
+                border-radius: 5px;
+                transition: 1s;
+                color: white;
+                &:hover {
+                    background-color: rgba(0, 255, 106, 0.945);
+                    border: 1px solid white;                
+                    transform: scale(1.1);
+                }
+            }
+          
+            .navbar-toggler {
+                background-color: white;
+            }
+            .nav-item {
+                .nav-link {
+                    color: white;
+                    transition: 1s;
+                    &:hover {
+                        transform: scale(1.1);
+                        color: brown;
+                    }
+                }
+               
+            }
+        }
+    
