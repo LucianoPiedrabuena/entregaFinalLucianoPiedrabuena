@@ -1,12 +1,10 @@
-
-
-@media screen and (max-width:950px){
+@media screen and (max-width:950px) {
     .gridImagenes {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 200px;
     }
 
-    .gridItem{
+    .gridItem {
         grid-column: span 1;
         grid-row: span 1;
     }
@@ -15,7 +13,7 @@
         grid-column: span 2;
     }
 
-    header {
+    .fondo {
         flex-direction: column;
         justify-content: center;
         text-align: justify;
@@ -25,41 +23,46 @@
     .titulo {
         justify-content: start;
     }
+
     .gridCategorias {
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: 200px;
     }
 
-    .gridItemCat{
+    .gridItemCat {
         grid-column: span 1;
         grid-row: span 1;
     }
 
-    .img015{
+    .img015 {
         grid-column: span 2;
     }
 
 }
-@media screen and (max-width:700px){
-  
-    .acerca .sueño{
+
+@media screen and (max-width:700px) {
+
+    .acerca .sueño {
         flex-direction: column;
-        margin: 0 0 0 0 ;
-    }
-    .acerca .mision{
-        flex-direction: column-reverse;
-        margin: 0 0 0 0 ;
-    }
-    .acerca .principios{
-        flex-direction: column;
-        margin: 0 0 0 0 ;
-    }
-    .acerca .valores{
-        flex-direction: column-reverse;
-        margin: 0 0 0 0 ;
+        margin: 0 0 0 0;
     }
 
-    header {
+    .acerca .mision {
+        flex-direction: column-reverse;
+        margin: 0 0 0 0;
+    }
+
+    .acerca .principios {
+        flex-direction: column;
+        margin: 0 0 0 0;
+    }
+
+    .acerca .valores {
+        flex-direction: column-reverse;
+        margin: 0 0 0 0;
+    }
+
+    .fondo {
         flex-direction: column;
         justify-content: center;
         text-align: justify;
@@ -67,9 +70,13 @@
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
     .fixed {
         display: none;
+    }
+
+    .acerca {
+        flex-wrap: wrap;
     }
 }
 
@@ -83,38 +90,40 @@
         grid-row: span 1;
     }
 
-    header {
+    .fondo {
         flex-direction: column;
         justify-content: center;
         text-align: justify;
 
     }
-    .acerca{
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .galeriaDeFotos{
+
+    .galeriaDeFotos {
         margin-bottom: 30px;
         margin-top: 30px;
     }
+
+    .tituloAzul {
+        border: 0px;
+    }
 }
 
-@media screen and (max-width:410px) {
-    header {
-        flex-direction: column;
-        justify-content: center;
-        text-align: justify;
+@media screen and (max-width:390px) {
+    .fondo {
+        // flex-direction: column;
+        // justify-content: center;
+        // text-align: justify;
         width: 100%;
+
     }
-    .acerca p {
-        
-       
-        width: auto;
-        
-    }
-    .acerca img{
-        width: 80%;
-        height: 250px;
+}
+.acerca{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:320px) {
+    .formulario {
+        text-align: center;
     }
 }

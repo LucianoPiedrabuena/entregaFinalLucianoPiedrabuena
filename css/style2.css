@@ -638,6 +638,7 @@ header nav ul li a {
     .acerca {
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .galeriaDeFotos {
@@ -646,7 +647,7 @@ header nav ul li a {
     }
 }
 
-@media screen and (max-width:410px) {
+@media screen and (max-width:390px) {
     header {
         flex-direction: column;
         justify-content: center;
@@ -654,4 +655,24 @@ header nav ul li a {
         width: 100%;
 
     }
+}
+.acerca .sueño {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.acerca .mision {
+    flex-direction: column-reverse;
+    width: 90%;
+}
+
+.acerca .principios {
+    flex-direction: column;
+    width: 90%;
+}
+
+.acerca .valores {
+    flex-direction: column-reverse;
+    width: 90%;
 }
